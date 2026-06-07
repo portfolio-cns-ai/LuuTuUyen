@@ -1,21 +1,21 @@
 :root {
-  --background: #f7f9fc;
+  --background: #fff7fb;
   --surface: #ffffff;
-  --primary: #1d4ed8;
-  --secondary: #0f172a;
-  --accent: #f59e0b;
-  --teal: #14b8a6;
-  --soft-blue: #e0f2fe;
-  --soft-indigo: #eef2ff;
-  --soft-gold: #fef3c7;
-  --border: #cbd5e1;
-  --text: #111827;
-  --muted: #64748b;
-  --global-grid: rgba(29, 78, 216, 0.06);
-  --digital-line: rgba(20, 184, 166, 0.12);
-  --gold-highlight: rgba(245, 158, 11, 0.14);
+  --primary: #db2777;
+  --secondary: #2f2433;
+  --accent: #fb7185;
+  --teal: #a855f7;
+  --soft-blue: #ffe4f1;
+  --soft-indigo: #f4e8ff;
+  --soft-gold: #fff1c7;
+  --border: #f1bfd5;
+  --text: #2f2433;
+  --muted: #7a6574;
+  --global-grid: rgba(219, 39, 119, 0.055);
+  --digital-line: rgba(168, 85, 247, 0.12);
+  --gold-highlight: rgba(251, 113, 133, 0.15);
   --radius: 10px;
-  --shadow: 0 18px 42px rgba(15, 23, 42, 0.09);
+  --shadow: 0 18px 42px rgba(190, 24, 93, 0.11);
   --container: 1160px;
 }
 
@@ -33,10 +33,11 @@ body {
   background:
     linear-gradient(var(--global-grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--global-grid) 1px, transparent 1px),
-    radial-gradient(circle at 12% 10%, rgba(224, 242, 254, 0.86), transparent 30%),
-    radial-gradient(circle at 90% 16%, rgba(238, 242, 255, 0.88), transparent 28%),
+    radial-gradient(circle at 12% 10%, rgba(255, 228, 241, 0.92), transparent 30%),
+    radial-gradient(circle at 90% 16%, rgba(244, 232, 255, 0.94), transparent 28%),
+    radial-gradient(circle at 80% 82%, rgba(255, 241, 199, 0.70), transparent 24%),
     var(--background);
-  background-size: 44px 44px, 44px 44px, auto, auto, auto;
+  background-size: 44px 44px, 44px 44px, auto, auto, auto, auto;
   font-family: "Be Vietnam Pro", "Segoe UI", Arial, sans-serif;
   line-height: 1.65;
   letter-spacing: 0;
@@ -66,8 +67,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 50;
-  border-bottom: 1px solid rgba(203, 213, 225, 0.9);
-  background: rgba(247, 249, 252, 0.92);
+  border-bottom: 1px solid rgba(241, 191, 213, 0.9);
+  background: rgba(255, 247, 251, 0.92);
   backdrop-filter: blur(16px);
 }
 
@@ -97,7 +98,7 @@ a {
   background: linear-gradient(135deg, var(--primary), var(--teal));
   font-size: 0.78rem;
   font-weight: 800;
-  box-shadow: 0 12px 28px rgba(29, 78, 216, 0.20);
+  box-shadow: 0 12px 28px rgba(219, 39, 119, 0.22);
 }
 
 .brand strong,
@@ -186,7 +187,7 @@ a {
   position: absolute;
   right: 24px;
   bottom: 12px;
-  color: rgba(29, 78, 216, 0.055);
+  color: rgba(219, 39, 119, 0.055);
   font-size: clamp(4rem, 9vw, 8rem);
   font-weight: 800;
   line-height: 1;
@@ -273,7 +274,7 @@ h1 span {
 .learning-panel {
   padding: 24px;
   background:
-    linear-gradient(180deg, rgba(238, 242, 255, 0.66), rgba(255, 255, 255, 0.96)),
+    linear-gradient(180deg, rgba(255, 228, 241, 0.72), rgba(255, 255, 255, 0.96)),
     #fff;
 }
 
@@ -298,7 +299,7 @@ h1 span {
   border: 8px solid #fff;
   border-radius: var(--radius);
   background: var(--soft-blue);
-  box-shadow: 0 18px 34px rgba(29, 78, 216, 0.14);
+  box-shadow: 0 18px 34px rgba(219, 39, 119, 0.15);
 }
 
 .avatar-frame img,
@@ -493,7 +494,7 @@ h1 span {
 .profile-card {
   min-height: 220px;
   padding: 20px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 10px 24px rgba(190, 24, 93, 0.07);
 }
 
 .profile-label,
@@ -537,7 +538,7 @@ h1 span {
 .case-section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  background: rgba(238, 242, 255, 0.42);
+  background: rgba(255, 228, 241, 0.44);
 }
 
 .case-grid {
@@ -553,14 +554,14 @@ h1 span {
   flex-direction: column;
   border-top: 5px solid var(--case-color, var(--primary));
   padding: 20px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 10px 24px rgba(190, 24, 93, 0.07);
 }
 
 .case-card.is-featured {
   background:
     linear-gradient(180deg, var(--gold-highlight), rgba(255, 255, 255, 0.96) 35%),
     #fff;
-  box-shadow: 0 18px 42px rgba(29, 78, 216, 0.12);
+  box-shadow: 0 18px 42px rgba(219, 39, 119, 0.14);
 }
 
 .case-number {
@@ -638,7 +639,7 @@ h1 span {
 .outcomes-shell {
   padding: 30px;
   background:
-    linear-gradient(135deg, rgba(224, 242, 254, 0.70), rgba(254, 243, 199, 0.52)),
+    linear-gradient(135deg, rgba(255, 228, 241, 0.76), rgba(255, 241, 199, 0.52)),
     #fff;
 }
 

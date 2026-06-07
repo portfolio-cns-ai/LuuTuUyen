@@ -1,12 +1,12 @@
 const themeConfig = {
   name: "International Digital Learning Portfolio",
   colors: {
-    background: "#F7F9FC",
+    background: "#FFF7FB",
     surface: "#FFFFFF",
-    primary: "#1D4ED8",
-    secondary: "#0F172A",
-    accent: "#F59E0B",
-    teal: "#14B8A6",
+    primary: "#DB2777",
+    secondary: "#2F2433",
+    accent: "#FB7185",
+    teal: "#A855F7",
   },
 };
 
@@ -47,7 +47,7 @@ const cases = [
   {
     number: "01",
     type: "Digital Learning",
-    color: "#1D4ED8",
+    color: "#DB2777",
     title: "Quản lý tệp và thư mục",
     pdf: "files/tuan1.pdf",
     featured: false,
@@ -93,7 +93,7 @@ const cases = [
   {
     number: "03",
     type: "Prompt",
-    color: "#14B8A6",
+    color: "#A855F7",
     title: "Viết prompt hiệu quả cho các tác vụ học tập",
     pdf: "files/tuan3.pdf",
     featured: false,
@@ -116,7 +116,7 @@ const cases = [
   {
     number: "04",
     type: "Collaboration",
-    color: "#475569",
+    color: "#C026D3",
     title: "Hợp tác trực tuyến trong dự án truyền thông phòng ngừa tăng huyết áp",
     pdf: "files/tuan4.pdf",
     featured: false,
@@ -139,7 +139,7 @@ const cases = [
   {
     number: "05",
     type: "Digital Sustainability Campaign",
-    color: "#D97706",
+    color: "#FB7185",
     title: "Sáng tạo nội dung AI - “Sống xanh là sống sành”",
     pdf: "files/tuan5.pdf",
     featured: true,
@@ -162,7 +162,7 @@ const cases = [
   {
     number: "06",
     type: "Responsible AI",
-    color: "#4F46E5",
+    color: "#7C3AED",
     title: "Sử dụng AI có trách nhiệm trong học tập và nghiên cứu",
     pdf: "files/tuan6.pdf",
     featured: true,

@@ -7,7 +7,7 @@ Website tĩnh HTML/CSS/JS cho học phần Công nghệ số & ứng dụng trí
 - Sinh viên: Lưu Tú Uyên
 - MSSV: 25071041
 - Trường: Trường Quốc tế, Đại học Quốc gia Hà Nội
-- Theme: International Digital Learning Portfolio
+- Theme: International Digital Learning Portfolio, tone hồng pastel
 - Số PDF: 6 file trong thư mục `files/`
 
 ## Ghi chú avatar
