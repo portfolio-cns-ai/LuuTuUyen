@@ -12,7 +12,7 @@ Website tĩnh HTML/CSS/JS cho học phần Công nghệ số & ứng dụng trí
 
 ## Ghi chú avatar
 
-Website đã có khung avatar tại `images/avatar-placeholder.svg`. Khi có ảnh thật, thay file này hoặc đổi đường dẫn ảnh trong `index.html`.
+Ảnh cá nhân đang dùng tại `images/avatar.jpg`. File `images/avatar-placeholder.svg` được giữ lại như ảnh dự phòng nếu cần.
 
 ## Cấu trúc
 
